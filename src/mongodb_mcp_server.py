@@ -41,8 +41,8 @@ def setup_logging() -> logging.Logger:
     )
     file_handler.setFormatter(detailed_formatter)
     
-    # Console handler
-    console_handler = logging.StreamHandler(sys.stdout)
+    # Console handler - use stderr for MCP compatibility
+    console_handler = logging.StreamHandler(sys.stderr)
     console_handler.setFormatter(simple_formatter)
     
     # Configure root logger

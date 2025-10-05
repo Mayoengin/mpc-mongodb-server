@@ -20,3 +20,1069 @@
 2025-10-05 19:10:21,676 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
 2025-10-05 19:10:21,766 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
 2025-10-05 19:10:21,767 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:11:22,342 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:11:22,343 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:11:22,347 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:11:22,347 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:11:22,347 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:11:22,801 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41097 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:11:22,802 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41097
+2025-10-05 19:11:22,803 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:11:22,803 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41097/?authSource=admin&directConnection=true
+2025-10-05 19:11:23,032 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:11:23,032 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:11:23,033 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:11:23,043 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:11:23,045 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:11:23,066 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:11:23,088 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:11:23,090 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:12:23,814 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:12:23,815 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:12:23,819 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:12:23,819 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:12:23,819 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:12:24,289 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35275 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:12:24,290 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35275
+2025-10-05 19:12:24,290 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:12:24,291 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35275/?authSource=admin&directConnection=true
+2025-10-05 19:12:24,486 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:12:24,487 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:12:24,488 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:12:24,500 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:12:24,501 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:12:24,525 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:12:24,553 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:12:24,555 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:22,881 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:22,881 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:22,881 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:22,882 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:22,882 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:22,882 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:22,882 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:22,887 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:22,887 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:22,887 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:23,334 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:39621 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:23,335 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 39621
+2025-10-05 19:13:23,336 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:23,336 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:39621/?authSource=admin&directConnection=true
+2025-10-05 19:13:23,554 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:23,554 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:23,555 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:23,565 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:23,567 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:23,590 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:23,628 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:23,629 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:24,380 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:24,380 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:24,381 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:24,381 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:24,381 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:24,381 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:24,381 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:24,386 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:24,386 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:24,386 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:24,902 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:44585 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:24,902 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 44585
+2025-10-05 19:13:24,903 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:24,903 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:44585/?authSource=admin&directConnection=true
+2025-10-05 19:13:25,098 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:25,099 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:25,099 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:25,116 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:25,117 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:25,140 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:25,165 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:25,165 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:26,025 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:26,025 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:26,026 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:26,026 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:26,026 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:26,026 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:26,026 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:26,031 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:26,031 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:26,032 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:26,469 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:33785 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:26,470 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 33785
+2025-10-05 19:13:26,470 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:26,470 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:33785/?authSource=admin&directConnection=true
+2025-10-05 19:13:26,667 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:26,668 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:26,668 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:26,678 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:26,679 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:26,701 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:26,749 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:26,750 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:27,851 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:27,852 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:27,856 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:27,856 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:27,856 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:28,321 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41981 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:28,322 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41981
+2025-10-05 19:13:28,322 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:28,323 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41981/?authSource=admin&directConnection=true
+2025-10-05 19:13:28,551 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:28,552 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:28,552 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:28,566 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:28,567 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:28,591 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:28,610 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:28,611 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:30,115 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:30,115 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:30,115 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:30,115 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:30,115 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:30,116 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:30,116 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:30,121 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:30,121 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:30,121 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:30,546 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:33469 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:30,547 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 33469
+2025-10-05 19:13:30,548 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:30,548 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:33469/?authSource=admin&directConnection=true
+2025-10-05 19:13:30,764 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:30,765 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:30,765 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:30,783 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:30,785 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:30,806 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:30,835 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:30,836 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:33,168 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:33,168 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:33,168 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:33,168 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:33,168 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:33,169 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:33,169 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:33,173 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:33,173 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:33,173 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:33,629 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:38543 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:33,630 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 38543
+2025-10-05 19:13:33,631 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:33,631 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:38543/?authSource=admin&directConnection=true
+2025-10-05 19:13:33,844 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:33,844 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:33,846 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:33,860 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:33,861 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:33,887 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:33,910 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:33,911 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:37,884 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:37,885 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:37,886 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:37,886 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:37,886 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:37,886 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:37,886 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:37,892 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:37,892 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:37,892 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:38,347 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35997 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:38,348 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35997
+2025-10-05 19:13:38,348 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:38,348 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35997/?authSource=admin&directConnection=true
+2025-10-05 19:13:38,580 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:38,580 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:38,580 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:38,592 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:38,594 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:38,618 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:38,644 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:38,645 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:13:45,849 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:13:45,850 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:13:45,850 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:13:45,850 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:45,850 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:13:45,850 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:13:45,851 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:13:45,856 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:13:45,856 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:13:45,856 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:13:46,290 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35011 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:13:46,291 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35011
+2025-10-05 19:13:46,292 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:13:46,293 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35011/?authSource=admin&directConnection=true
+2025-10-05 19:13:46,513 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:13:46,514 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:13:46,514 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:13:46,518 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:13:46,519 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:13:46,540 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:13:46,584 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:13:46,585 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:29,668 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:29,668 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:29,668 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:29,668 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:29,669 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:29,669 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:29,669 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:29,673 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:29,673 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:29,673 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:30,085 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:38723 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:30,086 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 38723
+2025-10-05 19:14:30,087 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:30,087 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:38723/?authSource=admin&directConnection=true
+2025-10-05 19:14:30,296 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:30,297 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:30,298 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:30,310 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:30,311 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:30,337 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:30,368 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:30,369 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:31,275 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:31,275 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:31,276 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:31,276 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:31,276 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:31,276 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:31,276 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:31,281 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:31,281 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:31,281 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:31,701 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40009 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:31,701 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40009
+2025-10-05 19:14:31,701 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:31,701 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40009/?authSource=admin&directConnection=true
+2025-10-05 19:14:31,922 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:31,922 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:31,922 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:31,926 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:31,927 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:31,949 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:31,994 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:31,995 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:32,918 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:32,919 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:32,923 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:32,923 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:32,923 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:33,383 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:33599 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:33,384 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 33599
+2025-10-05 19:14:33,384 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:33,385 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:33599/?authSource=admin&directConnection=true
+2025-10-05 19:14:33,632 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:33,633 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:33,634 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:33,648 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:33,649 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:33,670 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:33,689 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:33,690 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:34,815 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:34,815 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:34,816 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:34,816 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:34,816 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:34,816 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:34,816 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:34,821 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:34,821 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:34,821 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:35,248 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:37373 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:35,249 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 37373
+2025-10-05 19:14:35,250 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:35,250 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:37373/?authSource=admin&directConnection=true
+2025-10-05 19:14:35,483 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:35,484 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:35,484 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:35,501 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:35,502 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:35,523 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:35,537 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:35,538 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:37,068 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:37,073 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:37,073 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:37,073 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:37,499 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:38201 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:37,500 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 38201
+2025-10-05 19:14:37,501 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:37,501 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:38201/?authSource=admin&directConnection=true
+2025-10-05 19:14:37,785 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:37,786 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:37,786 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:37,794 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:37,796 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:37,856 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:37,887 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:37,887 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:38,051 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:38,056 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:38,057 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:38,057 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:38,515 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:39419 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:38,516 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 39419
+2025-10-05 19:14:38,516 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:38,516 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:39419/?authSource=admin&directConnection=true
+2025-10-05 19:14:38,723 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:38,724 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:38,724 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:38,740 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:38,741 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:38,762 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:38,788 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:38,789 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:40,115 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:40,116 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:40,121 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:40,121 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:40,121 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:40,587 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40813 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:40,588 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40813
+2025-10-05 19:14:40,589 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:40,589 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40813/?authSource=admin&directConnection=true
+2025-10-05 19:14:40,791 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:40,792 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:40,792 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:40,804 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:40,805 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:40,828 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:40,851 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:40,852 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:44,865 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:44,870 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:44,870 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:44,870 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:45,401 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41949 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:45,402 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41949
+2025-10-05 19:14:45,402 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:45,402 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41949/?authSource=admin&directConnection=true
+2025-10-05 19:14:45,601 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:45,601 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:45,602 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:45,613 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:45,614 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:45,636 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:45,666 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:45,667 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:14:49,294 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:49,295 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:49,295 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:49,296 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:49,296 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:49,297 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:49,297 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:49,305 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:49,305 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:49,306 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:49,741 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:33567 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:49,742 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 33567
+2025-10-05 19:14:49,742 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:49,743 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:33567/?authSource=admin&directConnection=true
+2025-10-05 19:14:49,972 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:49,973 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:49,973 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:50,002 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListToolsRequest
+2025-10-05 19:14:50,004 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListPromptsRequest
+2025-10-05 19:14:50,005 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListResourcesRequest
+2025-10-05 19:14:52,856 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:14:52,856 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:14:52,857 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:14:52,857 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:52,857 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:14:52,857 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:14:52,857 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:14:52,862 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:14:52,862 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:14:52,862 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:14:53,343 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:43781 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:14:53,344 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 43781
+2025-10-05 19:14:53,344 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:14:53,345 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:43781/?authSource=admin&directConnection=true
+2025-10-05 19:14:53,587 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:14:53,588 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:14:53,588 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:14:53,602 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:14:53,603 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:14:53,626 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:14:53,729 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:14:53,730 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:15:07,198 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:15:07,199 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:15:07,204 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:15:07,204 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:15:07,204 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:15:07,640 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:42925 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:15:07,641 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 42925
+2025-10-05 19:15:07,641 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:15:07,641 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:42925/?authSource=admin&directConnection=true
+2025-10-05 19:15:07,890 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:15:07,891 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:15:07,891 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:15:07,905 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:15:07,906 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:15:07,961 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:15:08,054 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:15:08,056 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:15:34,308 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:15:34,308 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:15:34,308 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:15:34,308 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:15:34,308 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:15:34,309 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:15:34,309 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:15:34,313 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:15:34,314 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:15:34,314 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:15:34,760 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:36027 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:15:34,761 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 36027
+2025-10-05 19:15:34,762 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:15:34,762 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:36027/?authSource=admin&directConnection=true
+2025-10-05 19:15:34,990 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:15:34,990 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:15:34,991 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:15:35,005 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:15:35,007 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:15:35,032 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:15:35,051 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:15:35,053 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:16:02,506 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type CallToolRequest
+2025-10-05 19:16:02,507 - mongodb-mcp-server - INFO - connect:274 - Connection requested
+2025-10-05 19:16:02,599 - mongodb-mcp-server - INFO - connect:284 - Using existing connection
+2025-10-05 19:16:27,012 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:16:27,012 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:16:27,012 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:16:27,012 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:16:27,012 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:16:27,013 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:16:27,013 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:16:27,017 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:16:27,017 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:16:27,017 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:16:27,450 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:43101 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:16:27,450 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 43101
+2025-10-05 19:16:27,451 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:16:27,451 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:43101/?authSource=admin&directConnection=true
+2025-10-05 19:16:27,681 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:16:27,682 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:16:27,682 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:16:27,695 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:16:27,696 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:16:27,717 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:16:27,749 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:16:27,750 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:17:28,489 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:17:28,494 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:17:28,494 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:17:28,494 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:17:29,038 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:46337 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:17:29,038 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 46337
+2025-10-05 19:17:29,039 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:17:29,040 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:46337/?authSource=admin&directConnection=true
+2025-10-05 19:17:29,283 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:17:29,284 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:17:29,284 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:17:29,289 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:17:29,290 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:17:29,311 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:17:29,411 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:17:29,411 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:18:30,052 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:18:30,053 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:18:30,058 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:18:30,058 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:18:30,058 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:18:30,495 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40687 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:18:30,495 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40687
+2025-10-05 19:18:30,496 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:18:30,496 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40687/?authSource=admin&directConnection=true
+2025-10-05 19:18:30,702 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:18:30,703 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:18:30,704 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:18:30,718 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:18:30,719 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:18:30,742 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:18:30,763 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:18:30,765 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:19:31,519 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:19:31,520 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:19:31,525 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:19:31,525 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:19:31,525 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:19:31,941 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40623 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:19:31,941 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40623
+2025-10-05 19:19:31,942 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:19:31,942 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40623/?authSource=admin&directConnection=true
+2025-10-05 19:19:32,159 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:19:32,160 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:19:32,161 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:19:32,174 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:19:32,175 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:19:32,198 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:19:32,218 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:19:32,219 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:20:32,932 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:20:32,932 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:20:32,932 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:20:32,933 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:20:32,933 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:20:32,933 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:20:32,933 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:20:32,937 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:20:32,937 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:20:32,937 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:20:33,376 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:42907 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:20:33,377 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 42907
+2025-10-05 19:20:33,378 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:20:33,379 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:42907/?authSource=admin&directConnection=true
+2025-10-05 19:20:33,600 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:20:33,601 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:20:33,601 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:20:33,615 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:20:33,616 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:20:33,641 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:20:33,662 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:20:33,663 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:21:34,356 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:21:34,356 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:21:34,356 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:21:34,356 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:34,356 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:21:34,357 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:21:34,357 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:21:34,361 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:21:34,361 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:21:34,361 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:21:34,813 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:46403 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:34,814 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 46403
+2025-10-05 19:21:34,815 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:21:34,816 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:46403/?authSource=admin&directConnection=true
+2025-10-05 19:21:35,068 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:21:35,069 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:21:35,069 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:21:35,083 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:21:35,084 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:21:35,110 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:21:35,114 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:21:35,114 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:21:56,287 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:21:56,291 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:21:56,292 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:21:56,292 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:21:56,713 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:36191 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:56,714 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 36191
+2025-10-05 19:21:56,714 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:21:56,715 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:36191/?authSource=admin&directConnection=true
+2025-10-05 19:21:56,944 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:21:56,944 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:21:56,945 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:21:56,959 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:21:56,959 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:21:56,981 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:21:57,006 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:21:57,007 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:21:57,775 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:21:57,780 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:21:57,780 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:21:57,780 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:21:58,212 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:46005 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:58,214 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 46005
+2025-10-05 19:21:58,214 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:21:58,215 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:46005/?authSource=admin&directConnection=true
+2025-10-05 19:21:58,443 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:21:58,443 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:21:58,444 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:21:58,456 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:21:58,456 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:21:58,479 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:21:58,503 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:21:58,503 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:21:59,443 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:21:59,443 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:21:59,443 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:21:59,443 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:59,444 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:21:59,444 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:21:59,444 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:21:59,448 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:21:59,448 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:21:59,448 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:21:59,992 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:38987 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:21:59,993 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 38987
+2025-10-05 19:21:59,993 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:21:59,994 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:38987/?authSource=admin&directConnection=true
+2025-10-05 19:22:00,209 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:00,210 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:00,210 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:00,225 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:00,226 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:00,269 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:00,278 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:00,278 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:01,364 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:01,364 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:01,364 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:01,365 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:01,365 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:01,365 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:01,365 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:01,369 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:01,369 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:01,369 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:01,789 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40111 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:01,790 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40111
+2025-10-05 19:22:01,790 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:01,791 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40111/?authSource=admin&directConnection=true
+2025-10-05 19:22:01,997 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:01,998 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:01,998 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:02,007 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:02,007 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:02,027 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:02,076 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:02,077 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:03,568 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:03,569 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:03,573 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:03,573 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:03,573 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:04,014 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41183 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:04,014 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41183
+2025-10-05 19:22:04,015 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:04,015 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41183/?authSource=admin&directConnection=true
+2025-10-05 19:22:04,253 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:04,253 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:04,254 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:04,266 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:04,267 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:04,289 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:04,303 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:04,304 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:06,612 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:06,612 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:06,612 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:06,612 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:06,612 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:06,613 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:06,613 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:06,617 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:06,617 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:06,617 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:07,160 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35019 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:07,161 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35019
+2025-10-05 19:22:07,161 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:07,161 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35019/?authSource=admin&directConnection=true
+2025-10-05 19:22:07,367 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:07,368 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:07,368 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:07,384 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:07,384 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:07,408 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:07,429 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:07,430 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:11,337 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:11,337 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:11,337 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:11,338 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:11,338 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:11,338 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:11,338 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:11,342 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:11,342 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:11,342 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:11,813 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:42931 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:11,814 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 42931
+2025-10-05 19:22:11,815 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:11,815 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:42931/?authSource=admin&directConnection=true
+2025-10-05 19:22:12,013 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:12,014 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:12,014 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:12,020 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:12,020 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:12,043 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:12,081 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:12,082 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:26,036 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:26,036 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:26,036 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:26,037 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:26,037 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:26,037 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:26,037 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:26,041 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:26,041 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:26,041 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:26,618 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35447 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:26,619 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35447
+2025-10-05 19:22:26,620 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:26,620 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35447/?authSource=admin&directConnection=true
+2025-10-05 19:22:26,822 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:26,823 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:26,823 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:26,837 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:26,838 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:26,860 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:26,882 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:26,883 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:31,040 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:31,040 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:31,040 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:31,040 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:31,041 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:31,041 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:31,041 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:31,045 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:31,045 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:31,045 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:31,475 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:37811 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:31,476 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 37811
+2025-10-05 19:22:31,476 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:31,477 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:37811/?authSource=admin&directConnection=true
+2025-10-05 19:22:31,695 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:31,696 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:31,696 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:31,704 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:31,704 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:31,725 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:31,764 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:31,765 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:32,586 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:32,586 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:32,586 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:32,586 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:32,586 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:32,587 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:32,587 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:32,591 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:32,591 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:32,592 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:33,016 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:43053 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:33,016 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 43053
+2025-10-05 19:22:33,017 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:33,017 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:43053/?authSource=admin&directConnection=true
+2025-10-05 19:22:33,246 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:33,247 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:33,247 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:33,260 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:33,261 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:33,282 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:33,307 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:33,308 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:34,231 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:34,236 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:34,236 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:34,236 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:34,665 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:40593 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:34,666 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 40593
+2025-10-05 19:22:34,667 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:34,667 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:40593/?authSource=admin&directConnection=true
+2025-10-05 19:22:34,918 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:34,919 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:34,920 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:34,931 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:34,931 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:34,984 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:35,082 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:35,083 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:35,640 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:35,646 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:35,686 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:35,773 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:35,774 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:36,003 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:36,003 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:36,003 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:36,004 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:36,004 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:36,004 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:36,005 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:36,014 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:36,014 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:36,014 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:36,068 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:36,069 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:36,073 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:36,073 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:36,073 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:36,441 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:35239 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:36,442 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 35239
+2025-10-05 19:22:36,442 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:36,443 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:35239/?authSource=admin&directConnection=true
+2025-10-05 19:22:36,507 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:42111 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:36,509 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 42111
+2025-10-05 19:22:36,509 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:36,510 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:42111/?authSource=admin&directConnection=true
+2025-10-05 19:22:36,652 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:36,657 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:36,658 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:36,669 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:36,669 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:36,695 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:36,722 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:36,723 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:36,725 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:36,725 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:36,726 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:36,734 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:36,734 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:36,755 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:36,788 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:36,789 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:38,423 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:38,428 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:38,428 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:38,429 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:38,866 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:42787 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:38,866 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 42787
+2025-10-05 19:22:38,867 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:38,867 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:42787/?authSource=admin&directConnection=true
+2025-10-05 19:22:39,096 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:39,096 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:39,097 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:39,110 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:39,111 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:39,134 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:39,160 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:39,161 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:41,096 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:41,096 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:41,096 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:41,096 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:41,096 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:41,097 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:41,097 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:41,101 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:41,101 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:41,101 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:41,441 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:41,441 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:41,442 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:41,442 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:41,442 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:41,442 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:41,442 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:41,446 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:41,446 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:41,446 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:41,525 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41789 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:41,525 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41789
+2025-10-05 19:22:41,526 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:41,526 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41789/?authSource=admin&directConnection=true
+2025-10-05 19:22:41,738 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:41,739 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:41,740 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:41,756 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListToolsRequest
+2025-10-05 19:22:41,758 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListPromptsRequest
+2025-10-05 19:22:41,759 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type ListResourcesRequest
+2025-10-05 19:22:41,874 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:46379 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:41,874 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 46379
+2025-10-05 19:22:41,874 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:41,875 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:46379/?authSource=admin&directConnection=true
+2025-10-05 19:22:42,090 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:42,091 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:42,091 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:42,102 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:42,103 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:42,126 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:42,160 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:42,161 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:46,067 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:46,067 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:46,067 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:46,068 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:46,068 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:46,068 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:46,068 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:46,072 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:46,072 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:46,072 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:46,500 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:43789 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:46,500 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 43789
+2025-10-05 19:22:46,501 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:46,501 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:43789/?authSource=admin&directConnection=true
+2025-10-05 19:22:46,715 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:46,715 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:46,716 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:46,729 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:46,730 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:46,754 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:46,783 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:46,784 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:22:50,582 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type CallToolRequest
+2025-10-05 19:22:50,584 - mongodb-mcp-server - INFO - connect:274 - Connection requested
+2025-10-05 19:22:50,671 - mongodb-mcp-server - INFO - connect:284 - Using existing connection
+2025-10-05 19:22:53,870 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:22:53,870 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:22:53,870 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:22:53,870 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:53,870 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:22:53,871 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:22:53,871 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:22:53,875 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:22:53,875 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:22:53,875 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:22:54,303 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41811 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:22:54,304 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41811
+2025-10-05 19:22:54,304 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:22:54,304 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41811/?authSource=admin&directConnection=true
+2025-10-05 19:22:54,554 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:22:54,555 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:22:54,555 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:22:54,563 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:22:54,563 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:22:54,610 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:22:54,635 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:22:54,635 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:23:08,115 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:23:08,115 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:23:08,115 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:23:08,115 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:23:08,115 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:23:08,116 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:23:08,116 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:23:08,120 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:23:08,120 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:23:08,120 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:23:08,602 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:41529 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:23:08,603 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 41529
+2025-10-05 19:23:08,604 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:23:08,604 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:41529/?authSource=admin&directConnection=true
+2025-10-05 19:23:08,806 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:23:08,807 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:23:08,808 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:23:08,819 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:23:08,819 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:23:08,843 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:23:08,869 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:23:08,870 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
+2025-10-05 19:23:17,713 - mcp.server.lowlevel.server - INFO - _handle_request:664 - Processing request of type CallToolRequest
+2025-10-05 19:23:17,714 - mongodb-mcp-server - INFO - list_databases:312 - Listing databases
+2025-10-05 19:23:18,020 - mongodb-mcp-server - INFO - list_databases:326 - Listed 62 databases
+2025-10-05 19:23:35,156 - mongodb-mcp-server - INFO - <module>:111 - === MongoDB MCP Server Starting ===
+2025-10-05 19:23:35,156 - mongodb-mcp-server - INFO - <module>:112 - SSH Host: normdev11.inet.telenet.be:22
+2025-10-05 19:23:35,157 - mongodb-mcp-server - INFO - <module>:113 - SSH Username: mayeid
+2025-10-05 19:23:35,157 - mongodb-mcp-server - INFO - <module>:114 - MongoDB Host: mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:23:35,157 - mongodb-mcp-server - INFO - <module>:115 - MongoDB Auth DB: admin
+2025-10-05 19:23:35,157 - mongodb-mcp-server - INFO - <module>:116 - Replica Set: int.norm.rs01
+2025-10-05 19:23:35,157 - mongodb-mcp-server - INFO - <module>:117 - MCP Server: 0.0.0.0:8000
+2025-10-05 19:23:35,161 - mongodb-mcp-server - INFO - main:480 - Starting MongoDB MCP Server...
+2025-10-05 19:23:35,161 - mongodb-mcp-server - INFO - main:484 - Testing initial connection...
+2025-10-05 19:23:35,161 - mongodb-mcp-server - INFO - create_ssh_tunnel:146 - Creating SSH tunnel to normdev11.inet.telenet.be:22
+2025-10-05 19:23:35,738 - mongodb-mcp-server - INFO - create_ssh_tunnel:164 - SSH tunnel established: localhost:45055 -> mongodb-norm.int.telenet-ops.be:27017
+2025-10-05 19:23:35,739 - mongodb-mcp-server - INFO - ensure_connection:238 - Connecting to MongoDB via tunnel on port 45055
+2025-10-05 19:23:35,739 - mongodb-mcp-server - INFO - ensure_connection:239 - Auth DB: admin, Username: norm_ro
+2025-10-05 19:23:35,740 - mongodb-mcp-server - INFO - ensure_connection:240 - Connection string: mongodb://norm_ro:***@localhost:45055/?authSource=admin&directConnection=true
+2025-10-05 19:23:35,937 - mongodb-mcp-server - INFO - ensure_connection:245 - MongoDB connection established successfully
+2025-10-05 19:23:35,938 - mongodb-mcp-server - INFO - main:487 - ✅ Initial connection test successful
+2025-10-05 19:23:35,939 - mongodb-mcp-server - INFO - main:500 - Starting MCP server on stdio
+2025-10-05 19:23:35,952 - mongodb-mcp-server - INFO - safe_log:66 - Cleaning up connections...
+2025-10-05 19:23:35,953 - mongodb-mcp-server - INFO - safe_log:66 - Disconnect requested
+2025-10-05 19:23:35,974 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB client closed
+2025-10-05 19:23:36,003 - mongodb-mcp-server - INFO - safe_log:66 - SSH tunnel closed
+2025-10-05 19:23:36,004 - mongodb-mcp-server - INFO - safe_log:66 - MongoDB MCP Server stopped
