@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  mongodb-mcp-server:
+    build: .
+    container_name: mongodb-mcp-server
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount secrets directory
+      - ./secrets:/app/secrets:ro
+      # Mount logs directory
+      - ./logs:/app/logs
+    environment:
+      # SSH Configuration - Force INT environment values
+      - SSH_HOST=normdev11.inet.telenet.be
+      - SSH_PORT=22
+      - SSH_USERNAME_FILE=/app/secrets/ssh_username.txt
+      - SSH_PASSWORD_FILE=/app/secrets/ssh_password.txt
+      
+      # MongoDB Configuration - Force INT Environment (matching Studio 3T)
+      - MONGODB_HOST=mongodb-norm.int.telenet-ops.be
+      - MONGODB_PORT=27017
+      - MONGODB_USERNAME_FILE=/app/secrets/mongodb_username.txt
+      - MONGODB_PASSWORD_FILE=/app/secrets/mongodb_password.txt
+      - MONGODB_AUTH_DB=admin
+      - REPLICA_SET=int.norm.rs01
+      
+      # Logging
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - LOG_DIR=/app/logs
+      
+      # MCP Server Configuration
+      - MCP_SERVER_PORT=8000
+      - MCP_SERVER_HOST=0.0.0.0
+      - MCP_TRANSPORT=stdio
+    restart: unless-stopped
+    networks:
+      - mongodb-mcp-network
+
+networks:
+  mongodb-mcp-network:
+    driver: bridge

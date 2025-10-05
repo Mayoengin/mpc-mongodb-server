@@ -1,0 +1,5 @@
+pymongo==4.6.0
+mcp==1.16.0
+sshtunnel==0.4.0
+python-dotenv==1.0.0
+paramiko==2.12.0
